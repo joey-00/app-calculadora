@@ -10,23 +10,23 @@ let resultado = 0;
 
 if(operacion === "sumar"){
     resultado = operaciones.sumar(numeroA, numeroB)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
 }else if(operacion === "restar"){
     resultado = operaciones.restar(numeroA, numeroB)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
 }else if(operacion === "multiplicar"){
     resultado = operaciones.multiplicar(numeroA, numeroB)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
 }else if(operacion === "dividir"){
     resultado = operaciones.dividir(numeroA, numeroB)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
 }else if(operacion === "porcentaje"){
     resultado = operaciones.porcentaje(numeroA, numeroB)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
     // numeroA = numero - numeroB = porcentaje 
 }else if(operacion === "raiz"){
     resultado = operaciones.raiz(numeroA)
-    return console.log('El resultado de la operacion es' +' '+ resultado)
+    return console.log('El resultado es' +' '+ resultado)
 }else{
     resultado ="oh no!... ha ocurrido un error, tomate tu tiempo en encontrarlo." 
     return console.log(resultado)
